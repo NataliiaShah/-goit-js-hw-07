@@ -227,3 +227,59 @@ img {
     letter-spacing: 0.04em;
     margin-bottom: 16px;
 }
+
+/**
+ |============================
+ | TASK - 6
+ |============================
+*/
+#controls {
+    margin-bottom: 32px;
+}
+
+#controls .button-blue:last-child {
+    background-color: #FF4E4E;
+    margin-left: 16px;
+}
+
+#controls .button-blue:last-child:hover {
+    background-color: #FF7070;
+}
+
+#controls .button-blue {
+    margin-left: 16px;
+}
+
+#controls input {
+    border-radius: 8px;
+    border: 1px solid #808080;
+    outline: transparent;
+
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.04em;
+    text-align: center;
+
+    padding: 5px 16px;
+}
+
+#controls input:focus {
+    border: 1px solid #000;
+}
+
+#boxes {
+    display: flex;
+    gap: 32px;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+}
+
+
+input[type="number"]::-webkit-inner-spin-button,
+input[type="number"]::-webkit-outer-spin-button {
+    -webkit-appearance: none;
+}
+
+input[type="number"] {
+    -moz-appearance: textfield;
+}
